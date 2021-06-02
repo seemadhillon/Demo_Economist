@@ -1,0 +1,32 @@
+{
+  "name": "protractorcucumber",
+  "version": "1.0.0",
+  "description": "framework setup for economist",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf JSFiles/",
+    "clean-build": "npm run clean && npm run build",
+    "test": "protractor JSFiles/configuration/protractor.conf.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start",
+    "lint": "tslint  e2e/**/*.ts"
+  },
+  "author": "Seema Dhillon",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "15.6.1",
+    "chai": "4.3.4",
+    "chai-as-promised": "7.1.1",
+    "cucumber-html-reporter": "5.4.0",
+    "mkdirp": "1.0.4",
+    "protractor": "^7.0.0",
+    "protractor-cucumber-framework": "8.1.0",
+    "ts-node": "10.0.0",
+    "typescript": "4.3.2",
+    "@cucumber/cucumber": "7.2.1",
+    "chai-jq": "0.0.9",
+    "chai-url": "1.0.4",
+    "ts-lint": "4.5.1"
+  }
+}

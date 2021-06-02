@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    /* Enable incremental compilation */
+    "module": "commonjs",
+        "target": "es6",
+        "moduleResolution": "node",
+        "sourceMap": false,
+        "declaration": false,
+        "removeComments": false,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "outDir": "JSFiles",
+        "typeRoots": [ "./node_modules/@types" ],
+        "types": ["node","@cucumber/cucumber"]
+  },
+  "exclude": [
+      "node_modules",
+      "JSFiles"
+  ]
+}
