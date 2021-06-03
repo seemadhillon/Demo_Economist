@@ -1,7 +1,6 @@
-import{$,By,element,ElementFinder} from "protractor"
+import{$, By, element, ElementFinder} from "protractor";
 
-
-export class signinpageObject{
+export class SigninpageObject{
    signinButton: ElementFinder;
 
    constructor(){

@@ -1,10 +1,10 @@
-import{$,ElementFinder} from "protractor";
+import{$, ElementFinder} from "protractor";
 
-export class createaccountpageobject{
+export class Createaccountpageobject{
 
-    createaccountlink:ElementFinder;
+    createaccountlink: ElementFinder;
    constructor(){
-       this.createaccountlink=$("input[type='submit'][value='Create an account']");
+       this.createaccountlink = $("input[type='submit'][value='Create an account']");
    }
 
 }

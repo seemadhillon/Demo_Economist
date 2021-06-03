@@ -10,7 +10,7 @@
     "test": "protractor JSFiles/configuration/protractor.conf.js",
     "webdriver-update": "webdriver-manager update",
     "webdriver-start": "webdriver-manager start",
-    "lint": "tslint  e2e/**/*.ts"
+    "lint": "tslint --fix -c tslint.json 'e2e/**/*.ts'"
   },
   "author": "Seema Dhillon",
   "license": "ISC",
